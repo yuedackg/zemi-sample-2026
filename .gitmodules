@@ -2,16 +2,16 @@
 	path = 25105-shirakawa
 	url = https://github.com/ckg25105-sketch/0508.git
 [submodule "25007-oohira"]
-	path = 25007-oohira
+	path = 25007-大平
 	url = https://github.com/Ckg25007/zemi.git
 [submodule "25085-takatani"]
 	path = 25085-takatani
 	url = https://github.com/ckg25085-del/zemi.git
 [submodule "25010-murakami"]
-	path = 25010-murakami
+	path = 25010-村上
 	url = https://github.com/ckg25010-ckg/050.git
 [submodule "25023-kouda"]
-	path = 25023-kouda
+	path = 25023-江田
 	url = https://github.com/ckg25023-cpu/zemi.git
 [submodule "25048-hutamata"]
 	path = 25048-hutamata
