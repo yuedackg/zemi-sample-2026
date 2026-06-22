@@ -1,11 +1,11 @@
 [submodule "25105-shirakawa"]
-	path = 25105-shirakawa
+	path = 25105-白川
 	url = https://github.com/ckg25105-sketch/0508.git
 [submodule "25007-oohira"]
 	path = 25007-大平
 	url = https://github.com/Ckg25007/zemi.git
 [submodule "25085-takatani"]
-	path = 25085-takatani
+	path = 25085-髙谷
 	url = https://github.com/ckg25085-del/zemi.git
 [submodule "25010-murakami"]
 	path = 25010-村上
@@ -17,22 +17,22 @@
 	path = 25048-二俣
 	url = https://github.com/ckg25048-create/zemi.git
 [submodule "25101-narahara"]
-	path = 25101-narahara
+	path = 25101-楢原
 	url = https://github.com/ckg25101-source/zemi.git
 [submodule "25033-tanaka"]
 	path = 25033-田中
 	url = https://github.com/25033tanaka/zemi.git
 [submodule "25068-furukawa"]
-	path = 25068-furukawa
+	path = 25068-古川
 	url = https://github.com/ckg25068-spec/zemi1129.git
 [submodule "yasunaga"]
-	path = 25098-yasunaga
+	path = 25098-安永
 	url = https://github.com/ckg25098-lang/zemi.git
 [submodule "25064-inoue"]
 	path = 25064-井上
 	url = https://github.com/ckg25064/zemi.git
 [submodule "25110-shimamura"]
-	path = 25110-shimamura
+	path = 25110-島村
 	url = https://github.com/ckg25110-crypto/fukuoka.git
 [submodule "25063-niino"]
 	path = 25063-新野
