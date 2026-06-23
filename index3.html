@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+
+            box-sizing: border-box;
+
+            border: solid 1px gray;
+
+            padding:0px;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        header,nav,footer{
+            width: 100%;
+            height: 20vh;
+
+        }
+        nav > ul > li {
+            width: calc( 100% / 5 );
+            text-align: center;
+            
+        }
+        aside{
+            width: 30%;
+
+        }
+        main{
+            width: 70%;
+            height: 40vh;
+
+        }
+        header{background-color: aliceblue;}
+        nav{background-color: antiquewhite;}
+        aside{background-color: aquamarine;}
+        main{background-color: beige;}
+        footer{background-color: lightpink;}
+    </style>
+</head>
+
+<body class="container">
+    <header>
+        <h1>卒業ゼミ</h1>
+        <div>
+            <div>メディアコミュニケーションWebクリエイター学科</div>
+            <div>担任　植田　吉祥</div>
+        </div>
+
+    </header>
+    <nav>
+        <ul class="container">
+            <li>富士山登山</li>
+            <li>屋久島登山</li>
+            <li>英彦山</li>
+            <li>福智山</li>
+            <li>装備・その他</li>
+        </ul>
+    </nav>
+    <aside>
+        <div class="MtFuji">
+            <div>subasiri route</div>
+            <div>yoshida route</div>
+            <div> route</div>
+            <div> route</div>
+        </div>
+
+    </aside>
+    <main>
+        <section class="MtFuji">
+            this is main contents.
+        </section>
+    </main>
+    <footer>
+        <div>
+            copyright (c) 2026
+        </div>
+    </footer>
+</body>
+
+</html>
