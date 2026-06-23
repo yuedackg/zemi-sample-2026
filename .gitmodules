@@ -40,3 +40,12 @@
 [submodule "25054-koga"]
 	path = 25054-古賀
 	url = https://github.com/ckg25054/Kurume.git
+[submodule "25014-吉村"]
+	path = 25014-吉村
+	url = https://github.com/elite4484/zemi.git
+[submodule "25044-鶴木"]
+	path = 25044-鶴木
+	url = https://github.com/ponzu1204/zemi.git
+[submodule "25077-kido"]
+	path = 25077-kido
+	url = https://github.com/ponzu1204/zemi.git
