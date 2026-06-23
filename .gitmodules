@@ -49,3 +49,6 @@
 [submodule "25077-kido"]
 	path = 25077-kido
 	url = https://github.com/ponzu1204/zemi.git
+[submodule "25074-佐藤"]
+	path = 25074-佐藤
+	url = https://github.com/ckg25074/sato-zemi.git
