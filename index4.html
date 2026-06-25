@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 数字を埋め込まなくてよいようにするために値を定義 */
+        :root{
+            /* 自分で名前を付ける項目と、割り当てる数字 */
+            --my-const-value: 10px;
+            --my-base-color: #00ffae;
+
+        }
+        * {
+            /* Width,heightで指定するサイズは、marginとborderを含む */
+            box-sizing: border-box;
+            /* 枠線の設定。完成時は削除 */
+            border: solid 1px gray;
+            /* 余白を消す設定 */
+            padding:0px;
+            margin: 0;
+        }
+        .container {
+
+            display: flex;
+            
+            flex-wrap: wrap;
+        }
+        header,nav,footer{
+            width: 100%;
+            height: 20vh;
+
+        }
+        nav > ul > li {
+            /* 数字はなるべく計算するほうが間違いがないと思う。 */
+            width: calc( 100% / 5 );
+            text-align: center;
+            
+        }
+        aside{
+            width: 30%;
+
+        }
+        main{
+            width: 70%;
+            /* 単位vhは、・・・・　 */
+            height: 40vh;
+
+            /* 色の定数を参照する方法 */
+            background-color: var(--my-base-color);
+        }
+    </style>
+</head>
+
+<body class="container">
+    <header>
+        <h1>卒業ゼミ</h1>
+        <div>
+            <div>メディアコミュニケーションWebクリエイター学科</div>
+            <div>担任　植田　吉祥</div>
+        </div>
+
+    </header>
+    <nav>
+        <ul class="container">
+            <li>富士山登山</li>
+            <li>屋久島登山</li>
+            <li>英彦山</li>
+            <li>福智山</li>
+            <li>装備・その他</li>
+        </ul>
+    </nav>
+    <aside>
+        <div class="MtFuji">
+            <div>subasiri route</div>
+            <div>yoshida route</div>
+            <div> route</div>
+            <div> route</div>
+        </div>
+
+    </aside>
+    <main>
+        <section class="MtFuji">
+            this is main contents.
+        </section>
+    </main>
+    <footer>
+        <div>
+            copyright (c) 2026
+        </div>
+    </footer>
+</body>
+
+</html>
