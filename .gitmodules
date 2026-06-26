@@ -52,3 +52,9 @@
 [submodule "25074-佐藤"]
 	path = 25074-佐藤
 	url = https://github.com/ckg25074/sato-zemi.git
+[submodule "25033-tanaka-2nd"]
+	path = 25033-tanaka-2nd
+	url = https://github.com/25033tanaka/zemi.git
+[submodule "25111-柴田"]
+	path = 25111-柴田
+	url = https://github.com/ckg25111-cmd/zemizemi1.git
